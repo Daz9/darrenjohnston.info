@@ -35,7 +35,6 @@ function submitToAPI(e) {
        desc : desc,
        gcaptcha : response
      };
-     console.log(data);
 
     $.ajax({
       type: "POST",
