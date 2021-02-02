@@ -1,5 +1,6 @@
 function submitToAPI(e) {
     e.preventDefault();
+    var response = grecaptcha.getResponse();
     var URL = "https://j3feku8y59.execute-api.eu-west-2.amazonaws.com/Complete/";
 
          var Namere = /[A-Za-z]{1}[A-Za-z]/;
@@ -31,7 +32,8 @@ function submitToAPI(e) {
        name : name,
        phone : phone,
        email : email,
-       desc : desc
+       desc : desc,
+       gcaptcha : response
      };
 
     $.ajax({
