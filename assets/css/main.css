@@ -2997,11 +2997,12 @@ input, select, textarea {
 					width: 65em;
 				}
 
+
 			.spotlights > section:nth-child(2n) {
-				-moz-flex-direction: row-reverse;
-				-webkit-flex-direction: row-reverse;
-				-ms-flex-direction: row-reverse;
-				flex-direction: row-reverse;
+				/*-moz-flex-direction: row-reverse;*/
+				/*-webkit-flex-direction: row-reverse;*/
+				/*-ms-flex-direction: row-reverse;*/
+				/*flex-direction: row-reverse;*/
 				background-color: #333856;
 			}
 
