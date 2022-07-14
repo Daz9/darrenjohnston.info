@@ -3738,6 +3738,7 @@ input, select, textarea {
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
+				overflow-x:auto;
 			}
 
 				@media screen and (max-width: 736px) {
